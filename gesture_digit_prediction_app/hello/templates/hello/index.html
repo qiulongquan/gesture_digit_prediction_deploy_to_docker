@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gesture Digit</title>
+</head>
+<body align="center">
+<form align=center action="/hello/upload" method="get" name="index">
+ {% csrf_token %}
+<!--    调用views1.py传递过来的值，然后显示-->
+<img src="../../../static/img/digit.png" alt="gesture digit image" width="500" height="300" border="0" />
+<p>{{ now }}</p>
+<tr align="center">
+        Welcome back,gesture digit classification APP！
+</tr>
+<tr>
+    <td><p>Please uploading gesture digit image files and then selection want to prediction targets to prediction.</p></td>
+    <td><input type="submit" value="Enter"></td>
+    </tr>
+</form>
+
+</body>
+</html>

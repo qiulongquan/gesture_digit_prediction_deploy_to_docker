@@ -1,0 +1,16 @@
+awsebcli==3.14.10
+blessed==1.15.0
+botocore==1.12.84
+numpy==1.16.4
+setuptools==41.0.0
+tensorflow-cpu==2.1.0
+Django==2.1.5
+pathspec==0.5.5
+PyMySQL==0.9.3
+python-dateutil==2.7.5
+pytz==2018.9
+PyYAML==3.13
+requests==2.20.1
+six==1.11.0
+urllib3==1.24.1
+Pillow==7.2.0
